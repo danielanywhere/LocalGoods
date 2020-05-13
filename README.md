@@ -168,4 +168,4 @@ the consumer, meeting the following goals, among others.
 The initial phases of the online consumer shopping model are illustrated
 in the following block diagram.
 
-<img src="Docs/Images/LocalGoodsStrategy1.png" style="width:6.5in;height:4.78125in" alt="Online consumer shopping at a local co-op. " />
+<img src="Docs/Images/LocalGoodsStrategy1.png" style="width:6.5in;height:3.17569in" alt="Activities grouped around central co-op. " />
