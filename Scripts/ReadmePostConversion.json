@@ -1,32 +1,32 @@
 [
 	{
 		"FindPattern": "media/image1.png",
-		"ReplacePattern": "docs/images/Flow-VegetableFarmer.png",
+		"ReplacePattern": "Docs/Images/Flow-VegetableFarmer.png",
 		"UseRegEx": 0
 	},
 	{
 		"FindPattern": "media/image2.png",
-		"ReplacePattern": "docs/images/Flow-CattleRancherMeat.png",
+		"ReplacePattern": "Docs/Images/Flow-CattleRancherMeat.png",
 		"UseRegEx": 0
 	},
 	{
 		"FindPattern": "media/image3.png",
-		"ReplacePattern": "docs/images/Flow-VegetableDistributor.png",
+		"ReplacePattern": "Docs/Images/Flow-VegetableDistributor.png",
 		"UseRegEx": 0
 	},
 	{
 		"FindPattern": "media/image4.png",
-		"ReplacePattern": "docs/images/Flow-MeatDistributor.png",
+		"ReplacePattern": "Docs/Images/Flow-MeatDistributor.png",
 		"UseRegEx": 0
 	},
 	{
 		"FindPattern": "media/image5.png",
-		"ReplacePattern": "docs/images/Flow-CommercialStore.png",
+		"ReplacePattern": "Docs/Images/Flow-CommercialStore.png",
 		"UseRegEx": 0
 	},
 	{
 		"FindPattern": "media/image6.png",
-		"ReplacePattern": "docs/images/LocalGoodsStrategy1.png",
+		"ReplacePattern": "Docs/Images/LocalGoodsStrategy1.png",
 		"UseRegEx": 0
 	}
 ]

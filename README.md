@@ -13,12 +13,11 @@ Index
 
 -   [Project Goals](#project-goals).
 
-    -   [Grower / Maker](#grower-maker).
+    -   Grower / Maker.
 
-    -   [Packager / Producer /
-        Distributor](#packager-producer-distributor).
+    -   Packager / Producer / Distributor.
 
-    -   [Consumer](#consumer).
+    -   Consumer.
 
 Introduction
 ------------
@@ -94,13 +93,13 @@ product to receive selling prices approaching the final retail value of
 the product, depending upon the facilities and capabilities available at
 the source property.
 
-<img src="docs/images/Flow-VegetableFarmer.png" style="width:6.5in;height:3.22431in" alt="Vegetable farmer growth to market flowchart." />
+<img src="Docs/Images/Flow-VegetableFarmer.png" style="width:6.5in;height:3.22431in" alt="Vegetable farmer growth to market flowchart." />
 
 In the above flow chart, the potential activities of a vegetable farmer,
 and in the following block diagram, some typical activities of a meat
 producing cattle rancher.
 
-<img src="docs/images/Flow-CattleRancherMeat.png" style="width:6.5in;height:1.73542in" alt="Meat cattle rancher growth to market flowchart." />
+<img src="Docs/Images/Flow-CattleRancherMeat.png" style="width:6.5in;height:1.73542in" alt="Meat cattle rancher growth to market flowchart." />
 
 One interesting characteristic to keep in mind about the cyclical nature
 of markets is that even a large cattle rancher with 1,000 head of
@@ -125,13 +124,13 @@ large ranch 100 miles away. In several cases, the final distributor ends
 up making transactions with several other handlers prior to the final
 transaction with the ranch.
 
-<img src="docs/images/Flow-VegetableDistributor.png" style="width:6.5in;height:3.22639in" alt="Vegetable distributor purchase to market flowchart." />
+<img src="Docs/Images/Flow-VegetableDistributor.png" style="width:6.5in;height:3.22639in" alt="Vegetable distributor purchase to market flowchart." />
 
 In the above flow chart, a vegetable distributor, and in the following
 flow chart, some of the general activities of a meat packager and
 distributor.
 
-<img src="docs/images/Flow-MeatDistributor.png" style="width:6.5in;height:2.34167in" alt="Meat distributor feed to market flowchart. " />
+<img src="Docs/Images/Flow-MeatDistributor.png" style="width:6.5in;height:2.34167in" alt="Meat distributor feed to market flowchart. " />
 
 In the earliest versions, activities at the mid-level are considered to
 be anything that needs to be done to break the high-volume specialized,
@@ -144,7 +143,7 @@ Although the fewest transitions occur at this stage of production, the
 fork end of the farm-to-fork concept offers a number of conveniences
 specifically suited for individual consumption.
 
-<img src="docs/images/Flow-CommercialStore.png" style="width:2.92672in;height:2.62467in" alt="Commercial store to consumer transaction flowchart." />
+<img src="Docs/Images/Flow-CommercialStore.png" style="width:2.92672in;height:2.62467in" alt="Commercial store to consumer transaction flowchart." />
 
 All of the activities at the higher levels of the system are meant to
 provide the type of infrastructure that can supply the final product to
@@ -169,4 +168,4 @@ the consumer, meeting the following goals, among others.
 The initial phases of the online consumer shopping model are illustrated
 in the following block diagram.
 
-<img src="docs/images/LocalGoodsStrategy1.png" style="width:6.5in;height:4.78125in" alt="Online consumer shopping at a local co-op. " />
+<img src="Docs/Images/LocalGoodsStrategy1.png" style="width:6.5in;height:4.78125in" alt="Online consumer shopping at a local co-op. " />
