@@ -1,0 +1,233 @@
+﻿[
+	{
+		"ColumnName": "BulletIndex",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "BulletText",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "CatalogBulletID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "CatalogBulletTicket",
+		"DataType": "TEXT",
+		"Size": 36
+	},
+	{
+		"ColumnName": "CatalogImageID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "CatalogImageTicket",
+		"DataType": "TEXT",
+		"Size": 36
+	},
+	{
+		"ColumnName": "CatalogItemCount",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "CatalogItemID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "CatalogItemTicket",
+		"DataType": "TEXT",
+		"Size": 36
+	},
+	{
+		"ColumnName": "CityItemID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "CityItemTicket",
+		"DataType": "TEXT",
+		"Size": 36
+	},
+	{
+		"ColumnName": "CityName",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "CityRequestID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "CityRequestName",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "CityRequestTicket",
+		"DataType": "TEXT",
+		"Size": 36
+	},
+	{
+		"ColumnName": "ConfigItemID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "ConfigItemTicket",
+		"DataType": "TEXT",
+		"Size": 36
+	},
+	{
+		"ColumnName": "ConfigName",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "ConfigValue",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "ContactInfo",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "DateCreated",
+		"DataType": "TEXT",
+		"Size": 23
+	},
+	{
+		"ColumnName": "DateUpdated",
+		"DataType": "TEXT",
+		"Size": 23
+	},
+	{
+		"ColumnName": "DateViewed",
+		"DataType": "TEXT",
+		"Size": 23
+	},
+	{
+		"ColumnName": "DepartmentItemID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "DepartmentItemTicket",
+		"DataType": "TEXT",
+		"Size": 36
+	},
+	{
+		"ColumnName": "DepartmentName",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "EmailNotFound",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "ImageIndex",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "ImageURL",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "ItemPrice",
+		"DataType": "REAL"
+	},
+	{
+		"ColumnName": "ItemUnit",
+		"DataType": "TEXT",
+		"Size": 12
+	},
+	{
+		"ColumnName": "KeywordID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "KeywordLocationID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "KeywordName",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "MemberEmail",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "MemberPassword",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "MemberUsername",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "ProductDescription",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "ProductTitle",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "RatingCount",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "RecordID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "Result",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "StarCount",
+		"DataType": "REAL"
+	},
+	{
+		"ColumnName": "TableIndexID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "TableName",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "UserAuthorizedForCatalog",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "UserItemID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "UserItemTicket",
+		"DataType": "TEXT",
+		"Size": 36
+	},
+	{
+		"ColumnName": "UsernameNotFound",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "ViewCount",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "Visible",
+		"DataType": "INTEGER"
+	}
+]

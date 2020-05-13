@@ -1,0 +1,1010 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ColumnMetadata" xml:space="preserve">
+    <value>[
+	{
+		"ColumnName": "BulletIndex",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "BulletText",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "CatalogBulletID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "CatalogBulletTicket",
+		"DataType": "TEXT",
+		"Size": 36
+	},
+	{
+		"ColumnName": "CatalogImageID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "CatalogImageTicket",
+		"DataType": "TEXT",
+		"Size": 36
+	},
+	{
+		"ColumnName": "CatalogItemCount",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "CatalogItemID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "CatalogItemTicket",
+		"DataType": "TEXT",
+		"Size": 36
+	},
+	{
+		"ColumnName": "CityItemID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "CityItemTicket",
+		"DataType": "TEXT",
+		"Size": 36
+	},
+	{
+		"ColumnName": "CityName",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "CityRequestID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "CityRequestName",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "CityRequestTicket",
+		"DataType": "TEXT",
+		"Size": 36
+	},
+	{
+		"ColumnName": "ConfigItemID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "ConfigItemTicket",
+		"DataType": "TEXT",
+		"Size": 36
+	},
+	{
+		"ColumnName": "ConfigName",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "ConfigValue",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "ContactInfo",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "DateCreated",
+		"DataType": "TEXT",
+		"Size": 23
+	},
+	{
+		"ColumnName": "DateUpdated",
+		"DataType": "TEXT",
+		"Size": 23
+	},
+	{
+		"ColumnName": "DateViewed",
+		"DataType": "TEXT",
+		"Size": 23
+	},
+	{
+		"ColumnName": "DepartmentItemID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "DepartmentItemTicket",
+		"DataType": "TEXT",
+		"Size": 36
+	},
+	{
+		"ColumnName": "DepartmentName",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "EmailNotFound",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "ImageIndex",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "ImageURL",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "ItemPrice",
+		"DataType": "REAL"
+	},
+	{
+		"ColumnName": "ItemUnit",
+		"DataType": "TEXT",
+		"Size": 12
+	},
+	{
+		"ColumnName": "KeywordID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "KeywordLocationID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "KeywordName",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "MemberEmail",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "MemberPassword",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "MemberUsername",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "ProductDescription",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "ProductTitle",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "RatingCount",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "RecordID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "Result",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "StarCount",
+		"DataType": "REAL"
+	},
+	{
+		"ColumnName": "TableIndexID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "TableName",
+		"DataType": "TEXT",
+		"Size": 255
+	},
+	{
+		"ColumnName": "UserAuthorizedForCatalog",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "UserItemID",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "UserItemTicket",
+		"DataType": "TEXT",
+		"Size": 36
+	},
+	{
+		"ColumnName": "UsernameNotFound",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "ViewCount",
+		"DataType": "INTEGER"
+	},
+	{
+		"ColumnName": "Visible",
+		"DataType": "INTEGER"
+	}
+]</value>
+    <comment>Column data types to compensate for the fact that System.Data.SQLite doesn't return cells of DbType in queries.</comment>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>Copyright (c). 2020 Daniel Patterson, MCSD (danielanywhere)
+Released for public access under the MIT License.
+http://www.opensource.org/licenses/mit-license.php</value>
+    <comment>Copyright notice.</comment>
+  </data>
+  <data name="delCatalogBulletForIDList" xml:space="preserve">
+    <value>DELETE
+FROM CatalogBullet
+WHERE CatalogBulletID IN({0});
+</value>
+    <comment>Delete items from the bullet point table where the record ID matches values in the list.</comment>
+  </data>
+  <data name="delCatalogBulletForTicketList" xml:space="preserve">
+    <value>DELETE 
+FROM CatalogBullet
+WHERE CatalogBulletTicket IN({0});
+</value>
+    <comment>Delete items from the bullet point table for matching tickets in list.</comment>
+  </data>
+  <data name="delCatalogImageForTicketList" xml:space="preserve">
+    <value>DELETE
+FROM CatalogImage
+WHERE CatalogImageTicket IN({0});
+</value>
+    <comment>Delete items from the image table for matching tickets in the list.</comment>
+  </data>
+  <data name="delKeywordLocationBulletForCatalogItemID" xml:space="preserve">
+    <value>DELETE
+FROM KeywordLocation
+WHERE
+KeywordLocationID IN(
+	SELECT KeywordLocationID
+	FROM KeywordLocation
+	INNER JOIN CatalogBullet ON
+	CatalogBullet.CatalogBulletID =
+	KeywordLocation.RecordID
+	INNER JOIN CatalogItem ON
+	CatalogItem.CatalogItemID =
+	CatalogBullet.CatalogItemID
+	WHERE
+	CatalogItem.CatalogItemID = {0} AND
+	KeywordLocation.TableIndexID = 1
+);
+</value>
+    <comment>Delete the keyword location references for bullets on the specified catalog item ID.</comment>
+  </data>
+  <data name="delKeywordLocationBulletForTicketList" xml:space="preserve">
+    <value>DELETE
+FROM KeywordLocation
+WHERE
+KeywordLocationID IN(
+	SELECT KeywordLocationID
+	FROM KeywordLocation
+	INNER JOIN CatalogBullet ON
+	KeywordLocation.RecordID =
+	CatalogBullet.CatalogBulletID
+	WHERE
+	KeywordLocation.TableIndexID = 1 AND 
+	CatalogBullet.CatalogBulletTicket IN({0})
+);
+</value>
+    <comment>Delete keyword references for the bullet records identified in the ticket list..</comment>
+  </data>
+  <data name="delKeywordLocationBulletItemNotInIDList" xml:space="preserve">
+    <value>DELETE
+FROM KeywordLocation
+WHERE
+KeywordLocation.TableIndexID = 1 AND
+KeywordLocation.RecordID = {0} AND
+KeywordLocation.KeywordID NOT IN({1});
+</value>
+    <comment>Delete bullet-type records from the KeywordLocation table where the bullet record ID matches, but the keyword ID is not found in the list.</comment>
+  </data>
+  <data name="delKeywordLocationCatalogItemID" xml:space="preserve">
+    <value>DELETE
+FROM KeywordLocation
+WHERE
+KeywordLocation.TableIndexID = 3 AND
+KeywordLocation.RecordID = {0};
+</value>
+    <comment>Delete the keyword location references for the specified catalog item ID.</comment>
+  </data>
+  <data name="delKeywordLocationCatalogItemNotInIDList" xml:space="preserve">
+    <value>DELETE
+FROM KeywordLocation
+WHERE
+KeywordLocation.TableIndexID = 3 AND
+KeywordLocation.RecordID = {0} AND
+KeywordLocation.KeywordID NOT IN({1});
+</value>
+    <comment>Delete keywords associated with the specified catalog item when they are not in the provided ID list.</comment>
+  </data>
+  <data name="insCatalogImageWithTicket" xml:space="preserve">
+    <value>INSERT INTO CatalogImage(
+CatalogImageTicket, 
+CatalogItemID, 
+ImageIndex, 
+ImageURL)
+VALUES ({0}, {1}, {2}, {3});
+</value>
+    <comment>Append a new catalog image record using a pre-existing CatalogImageTicket.</comment>
+  </data>
+  <data name="insCityRequestAddUniqueName" xml:space="preserve">
+    <value>INSERT INTO CityRequest(
+CityRequestTicket,
+CityRequestName)
+SELECT
+{1} AS RequestTicket,
+{0} AS RequestName
+FROM CityRequest
+WHERE NOT EXISTS
+(
+	SELECT
+	CityRequest.CityRequestName
+	FROM
+	CityRequest
+	WHERE
+	CityRequest.CityRequestName = {0}
+);
+</value>
+    <comment>Append a city name request if the name is unique.</comment>
+  </data>
+  <data name="insUserItem" xml:space="preserve">
+    <value>INSERT INTO UserItem(
+UserItemTicket,
+MemberUsername,
+MemberEmail,
+MemberPassword,
+CityItemID)
+VALUES ({0}, {1}, {2}, {3}, {4});
+</value>
+    <comment>Create a new user profile.</comment>
+  </data>
+  <data name="rwOleDB" xml:space="preserve">
+    <value>username,email,add,all,alphanumeric,alter,and,any,application,as,asc,assistant,autoincrement,avg,between,binary,bit,boolean,by,byte,char,character,column,compactdatabase,constraint,container,count,counter,create,createdatabase,createfield,creategroup,createindex,createobject,createproperty,createrelation,createtabledef,createuser,createworkspace,currency,currentuser,database,date,datetime,delete,desc,description,disallow,distinct,distinctrow,document,double,drop,echo,else,end,eqv,error,exists,exit,false,field,fields,fillcache,float,float4,float8,foreign,form,forms,from,full,function,general,getobject,getoption,gotopage,group,groupby,guid,having,idle,ieeedouble,ieeesingle,if,ignore,imp,in,index,index,indexes,inner,insert,inserttext,int,integer,integer1,integer2,integer4,into,is,join,key,lastmodified,left,level,like,logical,logical1,long,longbinary,longtext,macro,match,max,min,mod,memo,module,money,move,name,newpassword,no,not,note,null,number,numeric,object,oleobject,off,on,openrecordset,option,or,order,orientation,outer,owneraccess,parameter,parameters,partial,percent,pivot,primary,procedure,property,queries,query,quit,real,recalc,recordset,references,refresh,refreshlink,registerdatabase,relation,repaint,repairdatabase,report,reports,requery,right,screen,section,select,set,setfocus,setoption,short,single,smallint,some,sql,stdev,stdevp,string,sum,table,tabledef,tabledefs,tableid,text,time,timestamp,top,transform,true,type,union,unique,update,user,value,values,var,varp,varbinary,varchar,version,where,with,workspace,xor,year,yes,yesno,password</value>
+    <comment>List of OLEDB keywords.</comment>
+  </data>
+  <data name="rwSQLDB" xml:space="preserve">
+    <value>username,email,add,all,alter,and,any,as,asc,backup,between,by,case,check,column,constraint,create,database,default,delete,desc,distinct,drop,exec,exists,foreign,from,full,group,having,in,index,inner,insert,into,is,join,key,left,like,limit,not,null,or,order,outer,primary,procedure,replace,right,rownum,select,set,table,top,truncate,union,unique,update,values,view,where,password</value>
+    <comment>List of OLEDB keywords.</comment>
+  </data>
+  <data name="rxBasicSearchTerm" xml:space="preserve">
+    <value>(?i:(?s:(?&lt;word&gt;\w+)))</value>
+    <comment>Regular expression pattern used to separate caller's expression into separate basic terms.</comment>
+  </data>
+  <data name="rxValidEmail" xml:space="preserve">
+    <value>(?i:^([a-z0-9]+([a-z0-9]|(?&lt;![_\-\.])[_\-\.])*)(?&lt;![_\-\.])@([a-z0-9]+([a-z0-9]|(?&lt;![_\-\.])[_\-\.])*)(?&lt;![_\-\.])\.([a-z]{2,5})$)</value>
+    <comment>Regular expression pattern to match valid email.</comment>
+  </data>
+  <data name="upCatalogItemRate" xml:space="preserve">
+    <value>UPDATE CatalogItem
+SET
+StarCount = {1},
+RatingCount = {2}
+WHERE CatalogItemID = {0};
+</value>
+    <comment>Update the rating of the catalog item. 0 - ID, 1 - Stars, 2 - Rating Count</comment>
+  </data>
+  <data name="vwCatalogBulletBlank" xml:space="preserve">
+    <value>SELECT
+CatalogBullet.*
+FROM CatalogBullet 
+WHERE CatalogBulletID = -1;
+</value>
+    <comment>Return a blank record in the shape of the CatalogBullet table.</comment>
+  </data>
+  <data name="vwCatalogBulletForCatalogItemID" xml:space="preserve">
+    <value>SELECT
+CatalogBullet.BulletText,
+CatalogBullet.BulletIndex,
+CatalogBullet.CatalogBulletID,
+CatalogBullet.CatalogBulletTicket
+FROM CatalogBullet
+WHERE CatalogBullet.CatalogItemID = {0}
+ORDER BY
+CatalogBullet.BulletIndex,
+CatalogBullet.CatalogBulletID;
+</value>
+    <comment>Return the bullet points for the specified catalog item ID.</comment>
+  </data>
+  <data name="vwCatalogBulletForTicketList" xml:space="preserve">
+    <value>SELECT
+CatalogBullet.*
+FROM CatalogBullet
+WHERE
+CatalogBullet.CatalogBulletTicket IN({0});
+</value>
+    <comment>Return the catalog bullet records for the list of globally unique identifications.</comment>
+  </data>
+  <data name="vwCatalogImageBlank" xml:space="preserve">
+    <value>SELECT
+CatalogImage.*
+FROM CatalogImage
+WHERE CatalogImageID = -1;
+</value>
+    <comment>Return a blank record in the shape of the CatalogImage table.</comment>
+  </data>
+  <data name="vwCatalogImageForCatalogItemID" xml:space="preserve">
+    <value>SELECT
+CatalogImage.ImageURL,
+CatalogImage.ImageIndex,
+CatalogImage.CatalogImageID,
+CatalogImage.CatalogImageTicket
+FROM CatalogImage
+WHERE CatalogImage.CatalogItemID = {0}
+ORDER BY
+CatalogImage.ImageIndex,
+CatalogImage.CatalogImageID;
+</value>
+    <comment>Return the image names for the specified catalog item ID.</comment>
+  </data>
+  <data name="vwCatalogItem" xml:space="preserve">
+    <value>SELECT
+CatalogItem.*
+FROM CatalogItem
+WHERE CatalogItemID = {0};
+</value>
+    <comment>Get the CatalogItem record for the specified item.</comment>
+  </data>
+  <data name="vwCatalogItemBlank" xml:space="preserve">
+    <value>SELECT
+CatalogItem.*
+FROM CatalogItem
+WHERE CatalogItemID = -1;
+</value>
+    <comment>Return a blank record in the shape of the CatalogItem table.</comment>
+  </data>
+  <data name="vwCatalogItemCountForUserTicket" xml:space="preserve">
+    <value>SELECT
+COUNT(CatalogItem.CatalogItemID) AS CatalogItemCount
+FROM CatalogItem
+INNER JOIN UserItem ON
+CatalogItem.UserItemID = UserItem.UserItemID
+GROUP BY UserItem.UserItemTicket
+HAVING UserItem.UserItemTicket = {0};
+</value>
+    <comment>Return the count of catalog items managed by the specified user ticket.</comment>
+  </data>
+  <data name="vwCatalogItemForID" xml:space="preserve">
+    <value>SELECT
+CatalogItem.*,
+DepartmentItem.DepartmentName,
+UserItem.MemberUsername,
+CityItem.CityName
+FROM ((CatalogItem
+LEFT JOIN DepartmentItem ON
+CatalogItem.DepartmentItemID =
+DepartmentItem.DepartmentItemID)
+LEFT JOIN UserItem ON
+CatalogItem.UserItemID = UserItem.UserItemID)
+LEFT JOIN CityItem ON
+CatalogItem.CityItemID = CityItem.CityItemID
+WHERE CatalogItem.CatalogItemID = {0};
+</value>
+    <comment>Return the full catalog record for the catalog item ID.</comment>
+  </data>
+  <data name="vwCatalogItemIDForTicket" xml:space="preserve">
+    <value>SELECT
+CatalogItem.CatalogItemID
+FROM CatalogItem
+WHERE CatalogItem.CatalogItemTicket = {0};
+</value>
+    <comment>Return the catalog item ID of the record with the specified globally unique identification.</comment>
+  </data>
+  <data name="vwCatalogItemIDsForBulletIDs" xml:space="preserve">
+    <value>SELECT
+CatalogBullet.CatalogBulletID,
+CatalogBullet.CatalogItemID
+FROM CatalogBullet
+WHERE CatalogBulletID IN({0});
+</value>
+    <comment>Return a cross-referenced list of catalog item IDs for the list of bullet IDs supplied.</comment>
+  </data>
+  <data name="vwCatalogItemsForCity" xml:space="preserve">
+    <value>SELECT
+CatalogItem.CatalogItemID,
+CatalogItem.CatalogItemTicket,
+CatalogItem.DepartmentItemID,
+CatalogItem.UserItemID,
+CatalogItem.DateCreated,
+CatalogItem.DateUpdated,
+CatalogItem.DateViewed,
+CatalogItem.Visible,
+CatalogItem.ViewCount,
+CatalogItem.ProductTitle,
+CatalogItem.ProductDescription,
+CatalogItem.StarCount,
+CatalogItem.ItemPrice,
+CatalogItem.ItemUnit,
+DepartmentItem.DepartmentName,
+CityItem.CityName,
+UserItem.CityItemID,
+(
+	SELECT
+	CatalogImage.ImageURL
+	FROM CatalogImage
+	WHERE CatalogImage.CatalogItemID =
+	CatalogItem.CatalogItemID
+	ORDER BY CatalogImage.ImageIndex
+	LIMIT 1
+) AS ImageURL
+FROM CatalogItem
+INNER JOIN UserItem ON
+CatalogItem.UserItemID = UserItem.UserItemID
+INNER JOIN DepartmentItem ON
+CatalogItem.DepartmentItemID =
+DepartmentItem.DepartmentItemID
+INNER JOIN CityItem ON
+CatalogItem.CityItemID =
+CityItem.CityItemID
+WHERE (CatalogItem.CityItemID = {0} OR
+(UserItem.CityItemID = {0} AND
+CatalogItem.CityItemID = 0)) AND
+CatalogItem.Visible = 1
+ORDER BY
+CatalogItem.DepartmentItemID,
+CatalogItem.DateCreated DESC;
+</value>
+    <comment>Most recent items for the specified city.</comment>
+  </data>
+  <data name="vwCatalogItemsForIDList" xml:space="preserve">
+    <value>SELECT
+CatalogItem.CatalogItemID,
+CatalogItem.CatalogItemTicket,
+CatalogItem.DepartmentItemID,
+CatalogItem.UserItemID,
+CatalogItem.DateCreated,
+CatalogItem.DateUpdated,
+CatalogItem.DateViewed,
+CatalogItem.Visible,
+CatalogItem.ViewCount,
+CatalogItem.ProductTitle,
+CatalogItem.ProductDescription,
+CatalogItem.StarCount,
+CatalogItem.ItemPrice,
+CatalogItem.ItemUnit,
+DepartmentItem.DepartmentName,
+CityItem.CityName,
+UserItem.CityItemID,
+(
+	SELECT
+	CatalogImage.ImageURL
+	FROM CatalogImage
+	WHERE CatalogImage.CatalogItemID =
+	CatalogItem.CatalogItemID
+	ORDER BY CatalogImage.ImageIndex
+	LIMIT 1
+) AS ImageURL
+FROM CatalogItem
+INNER JOIN UserItem ON
+CatalogItem.UserItemID =
+UserItem.UserItemID
+INNER JOIN DepartmentItem ON
+CatalogItem.DepartmentItemID =
+DepartmentItem.DepartmentItemID
+INNER JOIN CityItem ON
+CatalogItem.CityItemID =
+CityItem.CityItemID
+WHERE CatalogItem.CatalogItemID IN({0}) AND
+CatalogItem.Visible = 1
+ORDER BY
+CatalogItem.DepartmentItemID,
+CatalogItem.DateCreated DESC;
+</value>
+    <comment>Return a list of minimal catalog items for the specified ID list.</comment>
+  </data>
+  <data name="vwCatalogItemsForIDListInCity" xml:space="preserve">
+    <value>SELECT
+CatalogItem.CatalogItemID,
+CatalogItem.CatalogItemTicket,
+CatalogItem.DepartmentItemID,
+CatalogItem.UserItemID,
+CatalogItem.DateCreated,
+CatalogItem.DateUpdated,
+CatalogItem.DateViewed,
+CatalogItem.Visible,
+CatalogItem.ViewCount,
+CatalogItem.ProductTitle,
+CatalogItem.ProductDescription,
+CatalogItem.StarCount,
+CatalogItem.ItemPrice,
+CatalogItem.ItemUnit,
+DepartmentItem.DepartmentName,
+CityItem.CityName,
+UserItem.CityItemID,
+(
+	SELECT
+	CatalogImage.ImageURL
+	FROM CatalogImage
+	WHERE CatalogImage.CatalogItemID =
+	CatalogItem.CatalogItemID
+	ORDER BY CatalogImage.ImageIndex
+	LIMIT 1
+) AS ImageURL
+FROM CatalogItem
+INNER JOIN UserItem ON
+CatalogItem.UserItemID = UserItem.UserItemID
+INNER JOIN DepartmentItem ON
+CatalogItem.DepartmentItemID =
+DepartmentItem.DepartmentItemID
+INNER JOIN CityItem ON
+CatalogItem.CityItemID =
+CityItem.CityItemID
+WHERE (CatalogItem.CityItemID = {1} OR
+(UserItem.CityItemID = {1} AND
+CatalogItem.CityItemID = 0)) AND
+CatalogItem.CatalogItemID IN({0}) AND
+CatalogItem.Visible = 1
+ORDER BY
+CatalogItem.DepartmentItemID,
+CatalogItem.DateCreated DESC;
+</value>
+    <comment>Display catalog items where the record ID is in the specified list, for the selected city.</comment>
+  </data>
+  <data name="vwCatalogItemsForIDsAndUserTicket" xml:space="preserve">
+    <value>SELECT
+CatalogItem.CatalogItemID,
+CatalogItem.CatalogItemTicket,
+CatalogItem.DepartmentItemID,
+CatalogItem.UserItemID,
+CatalogItem.DateCreated,
+CatalogItem.DateUpdated,
+CatalogItem.DateViewed,
+CatalogItem.Visible,
+CatalogItem.ViewCount,
+CatalogItem.ProductTitle,
+CatalogItem.ProductDescription,
+CatalogItem.StarCount,
+CatalogItem.ItemPrice,
+CatalogItem.ItemUnit,
+DepartmentItem.DepartmentName,
+CityItem.CityName,
+UserItem.CityItemID,
+(
+	SELECT
+	CatalogImage.ImageURL
+	FROM CatalogImage
+	WHERE CatalogImage.CatalogItemID =
+	CatalogItem.CatalogItemID
+	ORDER BY CatalogImage.ImageIndex
+	LIMIT 1
+) AS ImageURL
+FROM CatalogItem
+INNER JOIN UserItem ON
+CatalogItem.UserItemID = UserItem.UserItemID
+INNER JOIN DepartmentItem ON
+CatalogItem.DepartmentItemID =
+DepartmentItem.DepartmentItemID
+INNER JOIN CityItem ON
+CatalogItem.CityItemID =
+CityItem.CityItemID
+WHERE CatalogItem.CatalogItemID IN({0}) AND
+UserItem.UserItemTicket = {1}
+ORDER BY
+CatalogItem.CatalogItemID;
+</value>
+    <comment>Return the catalog items that match the specified ID list and user owner ticket.</comment>
+  </data>
+  <data name="vwCatalogItemsForUserTicket" xml:space="preserve">
+    <value>SELECT 
+CatalogItem.CatalogItemID,
+CatalogItem.CatalogItemTicket,
+CatalogItem.DepartmentItemID,
+CatalogItem.UserItemID, 
+CatalogItem.DateCreated,
+CatalogItem.DateUpdated,
+CatalogItem.DateViewed,
+CatalogItem.Visible,
+CatalogItem.ViewCount,
+CatalogItem.ProductTitle,
+CatalogItem.ProductDescription,
+CatalogItem.StarCount,
+CatalogItem.ItemPrice,
+CatalogItem.ItemUnit, 
+DepartmentItem.DepartmentName,
+UserItem.CityItemID,
+CityItem.CityName,
+(
+	SELECT
+	CatalogImage.ImageURL
+	FROM CatalogImage
+	WHERE CatalogImage.CatalogItemID =
+	CatalogItem.CatalogItemID
+	ORDER BY CatalogImage.ImageIndex
+	LIMIT 1
+) AS ImageURL
+FROM ((CatalogItem 
+INNER JOIN UserItem ON 
+CatalogItem.UserItemID = UserItem.UserItemID) 
+INNER JOIN DepartmentItem ON 
+CatalogItem.DepartmentItemID =
+DepartmentItem.DepartmentItemID) 
+INNER JOIN CityItem ON 
+CatalogItem.CityItemID = CityItem.CityItemID
+WHERE UserItem.UserItemTicket = {0}
+ORDER BY CityItem.CityName,
+CatalogItem.ProductTitle,
+DepartmentItem.DepartmentName, 
+CatalogItem.CatalogItemID;
+</value>
+    <comment>Return the list of catalog items associated with the specified user ticket.</comment>
+  </data>
+  <data name="vwCities" xml:space="preserve">
+    <value>SELECT *
+FROM CityItem
+ORDER BY CityName;
+</value>
+    <comment>Return the list of cities.</comment>
+  </data>
+  <data name="vwDepartmentIDFromName" xml:space="preserve">
+    <value>SELECT DepartmentItemID
+FROM DepartmentItem
+WHERE DepartmentItem.DepartmentName = {0};
+</value>
+    <comment>Return the department ID corresponding to the specified department name.</comment>
+  </data>
+  <data name="vwDepartments" xml:space="preserve">
+    <value>SELECT *
+FROM DepartmentItem
+ORDER BY DepartmentItem.DepartmentName;
+</value>
+    <comment>Return a list of the currently available departments.</comment>
+  </data>
+  <data name="vwEmailNotFound" xml:space="preserve">
+    <value>SELECT
+(COUNT(MemberEmail) = 0) AS EmailNotFound
+FROM UserItem
+WHERE MemberEmail = {0};
+</value>
+    <comment>Return true when the specified email is not found.</comment>
+  </data>
+  <data name="vwKeywordLocationBulletItemInIDList" xml:space="preserve">
+    <value>SELECT
+KeywordLocation.*
+FROM KeywordLocation
+WHERE
+KeywordLocation.TableIndexID = 1 AND
+KeywordLocation.RecordID = {0} AND
+KeywordLocation.KeywordID IN({1});
+</value>
+    <comment>Return the bullet-type keyword location items for the bullet ID where keyword ID is in the caller-supplied list.</comment>
+  </data>
+  <data name="vwKeywordLocationCatalogItemInIDList" xml:space="preserve">
+    <value>SELECT
+KeywordLocation.*
+FROM KeywordLocation
+WHERE
+KeywordLocation.TableIndexID = 3 AND
+KeywordLocation.RecordID = {0} AND
+KeywordLocation.KeywordID IN({1});
+</value>
+    <comment>Return the keyword locations for the Catalog Item and Keyword ID list specified.</comment>
+  </data>
+  <data name="vwKeywords" xml:space="preserve">
+    <value>SELECT
+Keyword.KeywordID,
+Keyword.KeywordName
+FROM Keyword
+ORDER BY
+Keyword.KeywordName;
+</value>
+    <comment>Return the master list of keywords.</comment>
+  </data>
+  <data name="vwKeywordsForList" xml:space="preserve">
+    <value>SELECT
+Keyword.*
+FROM Keyword
+WHERE
+Keyword.KeywordName IN({0});
+</value>
+    <comment>Return all keyword records matching the text in the provided list.</comment>
+  </data>
+  <data name="vwRecordIDsForKeywordIDs" xml:space="preserve">
+    <value>SELECT
+KeywordLocation.RecordID,
+KeywordLocation.KeywordID,
+KeywordLocation.TableIndexID
+FROM KeywordLocation
+WHERE
+KeywordLocation.KeywordID IN({0});
+</value>
+    <comment>Return a list of base table and record IDs for a list of keyword IDs.</comment>
+  </data>
+  <data name="vwUserIDMatchesUserTicket" xml:space="preserve">
+    <value>SELECT
+UserItem.UserItemID = {0} AND
+UserItem.UserItemTicket = {1} AS Result
+FROM UserItem
+WHERE UserItem.UserItemID = {0};
+</value>
+    <comment>Return true if the specified user ID and user ticket are from the same user record.</comment>
+  </data>
+  <data name="vwUserItemForEmailPassword" xml:space="preserve">
+    <value>SELECT
+UserItem.*
+FROM UserItem
+WHERE
+MemberEmail = {0} AND
+MemberPassword = {1};
+</value>
+    <comment>Get the UserItem record for the specified Email and Password.</comment>
+  </data>
+  <data name="vwUserItemForTicketUsername" xml:space="preserve">
+    <value>SELECT
+UserItem.*
+FROM UserItem
+WHERE
+UserItem.UserItemTicket = {0} AND
+UserItem.MemberUsername = {1};
+</value>
+    <comment>Return the user item record for a combination of ticket and username.</comment>
+  </data>
+  <data name="vwUserItemForTwoFactor" xml:space="preserve">
+    <value>SELECT
+UserItem.*
+FROM UserItem
+WHERE
+UserItemTicket = {0} AND
+([MemberEmail] = {1} OR
+[MemberPassword] = {2});
+</value>
+    <comment>Return the user item ticket for a match betweeen the user's unique ticket and either the email address or password.</comment>
+  </data>
+  <data name="vwUserItemIDForTicket" xml:space="preserve">
+    <value>SELECT
+UserItem.UserItemID
+FROM UserItem
+WHERE
+UserItem.UserItemTicket = {0};
+</value>
+    <comment>Return the record ID of the user item assigned to the specified ticket.</comment>
+  </data>
+  <data name="vwUserItemTicketAuthorizedForCatalogItemID" xml:space="preserve">
+    <value>SELECT
+(COUNT(CatalogItem.CatalogItemID) &gt; 0) AS UserAuthorizedForCatalog
+FROM CatalogItem
+INNER JOIN UserItem ON
+CatalogItem.UserItemID =
+UserItem.UserItemID
+WHERE
+CatalogItem.CatalogItemID = {1} AND
+UserItem.UserItemTicket = {0};
+</value>
+    <comment>Return true if the specified User Ticket is authorized to edit the provided Catalog Item ID.</comment>
+  </data>
+  <data name="vwUsernameNotFound" xml:space="preserve">
+    <value>SELECT
+(COUNT(MemberUsername) = 0) AS UsernameNotFound
+FROM UserItem
+WHERE MemberUsername = {0};
+</value>
+    <comment>Return true when the specified username is not found.</comment>
+  </data>
+</root>

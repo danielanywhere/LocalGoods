@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<!--
+//	Copyright (c). 2020 Daniel Patterson, MCSD (danielanywhere)
+//	Released for public access under the MIT License.
+//	http://www.opensource.org/licenses/mit-license.php
+-->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="816"
+   height="1056"
+   viewBox="0 0 215.9 279.4"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="LocalGoodsIcons.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="437.10484"
+     inkscape:cy="267.75493"
+     inkscape:document-units="px"
+     inkscape:current-layer="g857"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Check"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-17.6)"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:#00b90d;fill-opacity:1;fill-rule:evenodd;stroke:#00b90d;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect812"
+       width="32.866669"
+       height="32.866665"
+       x="0.5"
+       y="263.63333"
+       ry="4.9444861"
+       inkscape:export-filename="C:\Users\Daniel\Documents\GitHub\LocalGoods\LocalGoods\LocalGoods\images\StatusV.png"
+       inkscape:export-xdpi="96.000015"
+       inkscape:export-ydpi="96.000015" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffff53;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 4.471885,280.8056 7.361376,11.86661 18.513164,-21.58953 -1.101505,-3.62157 -17.144389,15.24304 -8.5803018,-8.62812 z"
+       id="path814"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="C:\Users\Daniel\Documents\GitHub\LocalGoods\LocalGoods\LocalGoods\images\StatusV.png"
+       inkscape:export-xdpi="96.000015"
+       inkscape:export-ydpi="96.000015" />
+  </g>
+  <g
+     transform="translate(0,-17.6)"
+     id="g820"
+     inkscape:groupmode="layer"
+     inkscape:label="Ex"
+     style="display:inline">
+    <rect
+       ry="4.9444861"
+       y="263.63333"
+       x="0.5"
+       height="32.866665"
+       width="32.866669"
+       id="rect816"
+       style="opacity:1;fill:#b92700;fill-opacity:1;fill-rule:evenodd;stroke:#b92700;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Daniel\Documents\GitHub\LocalGoods\LocalGoods\LocalGoods\images\StatusX.png"
+       inkscape:export-xdpi="96.000015"
+       inkscape:export-ydpi="96.000015" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#801b00;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 7.885097,265.37494 9.01984,10.95182 10.001374,-11.30449 4.375557,5.05815 -10.295507,9.99171 10.818177,9.61548 -6.283446,4.23798 -8.670525,-9.91041 -10.5920154,12.05349 -4.8994445,-5.71944 11.1423279,-10.3024 -9.6065116,-10.05314 z"
+       id="path822"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccc"
+       inkscape:export-filename="C:\Users\Daniel\Documents\GitHub\LocalGoods\LocalGoods\LocalGoods\images\StatusX.png"
+       inkscape:export-xdpi="96.000015"
+       inkscape:export-ydpi="96.000015" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="ImageNotFound"
+     style="display:none">
+    <path
+       style="opacity:1;fill:#fafafa;fill-opacity:1;fill-rule:evenodd;stroke:#83521b;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 0.5,186.85397 h 76.2355 l 28.59784,27.3078 v 64.73822 H 0.5 Z"
+       id="rect823"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="C:\Users\Daniel\Documents\GitHub\LocalGoods\LocalGoods\LocalGoods\images\NoImagesAvailable.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:#e7e7e7;fill-opacity:1;fill-rule:evenodd;stroke:#83521b;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 76.7355,186.85397 v 26.9618 h 28.25229 z"
+       id="path825"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Users\Daniel\Documents\GitHub\LocalGoods\LocalGoods\LocalGoods\images\NoImagesAvailable.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot830"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-2.3895142,34.477769)"
+       inkscape:export-filename="C:\Users\Daniel\Documents\GitHub\LocalGoods\LocalGoods\LocalGoods\images\NoImagesAvailable.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><flowRegion
+         id="flowRegion832"><rect
+           id="rect834"
+           width="234.35539"
+           height="134.3503"
+           x="91.923882"
+           y="752.95422" /></flowRegion><flowPara
+         id="flowPara836"
+         style="font-size:96px">...</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot838"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-0.38834438,45.249158)"
+       inkscape:export-filename="C:\Users\Daniel\Documents\GitHub\LocalGoods\LocalGoods\LocalGoods\images\NoImagesAvailable.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><flowRegion
+         id="flowRegion840"><rect
+           id="rect842"
+           width="281.83255"
+           height="185.86807"
+           x="58.588848"
+           y="663.05066" /></flowRegion><flowPara
+         id="flowPara844">No Images Available</flowPara></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="MoveUpWhiteOutline"
+     style="display:none">
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#ffffff;stroke-width:2.64583325;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 36.285447,206.63957 1.3227224,240.51606 H 18.89891 v 37.56102 h 17.197918 17.197916 v -37.56102 h 17.57567 z"
+       id="path847"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Daniel\Documents\GitHub\LocalGoods\LocalGoods\LocalGoods\images\MoveUpWhiteOutline.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+  <g
+     inkscape:label="MoveDownWhiteOutline"
+     id="g857"
+     inkscape:groupmode="layer"
+     style="display:none">
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="C:\Users\Daniel\Documents\GitHub\LocalGoods\LocalGoods\LocalGoods\images\MoveDownWhiteOutline.png"
+       inkscape:connector-curvature="0"
+       id="path855"
+       d="M 36.285447,278.07714 1.3227224,244.20065 H 18.89891 v -37.56102 h 17.197918 17.197916 v 37.56102 h 17.57567 z"
+       style="opacity:1;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#ffffff;stroke-width:2.64583325;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<!doctype html>
+<!--
+//	Products.html
+//
+//	Copyright (c). 2020 Daniel Patterson, MCSD (danielanywhere)
+//	Released for public access under the MIT License.
+//	http://www.opensource.org/licenses/mit-license.php
+-->
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<script type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="scripts/popper.min.js"></script>
+	<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+	<script type="text/javascript" src="scripts/knockout-min.js"></script>
+	<script type="text/javascript" src="scripts/knockstrap.min.js"></script>
+	<script type="text/javascript" src="scripts/page/Common.js"></script>
+	<script type="text/javascript" src="scripts/page/Products.js"></script>
+	<link type="text/css" rel="stylesheet" href="styles/bootstrap.css" />
+	<link type="text/css" rel="stylesheet" href="styles/default.css" />
+	<title id="docTitle">LocalGoods - Products</title>
+</head>
+<body>
+	<!-- Navbar Section -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="Index.html"> 
+			<img src="images/LocalGoodsLogo.png" style="width: 32px; border: 0" />
+		</a>
+		<div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto order-0">
+				<li class="nav-item">
+					<a class="nav-link" href="Index.html">&#171; Home <span class="sr-only">(current)</span></a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0" action="Products.html" method="GET">
+				<input id="txtSearch" name="SearchText" class="form-control mr-sm-2"
+					type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
+	<!-- /Navbar Section -->
+	<div id="navLead" class="container-fluid bg-dark text-light lead">LocalGoods - Product List</div>
+	<div>&nbsp;</div>
+	<div id="pageContainer" class="container">
+	</div>
+</body>
+</html>

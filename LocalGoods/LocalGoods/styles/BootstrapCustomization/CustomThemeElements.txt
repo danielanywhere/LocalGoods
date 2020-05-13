@@ -1,0 +1,11 @@
+Customizer: https://themestr.app/theme
+
+Colors
+------
+Primary:	#83521B
+Secondary:	#D4872E
+Info:		#1B4983
+
+Font
+----
+Name: Roboto

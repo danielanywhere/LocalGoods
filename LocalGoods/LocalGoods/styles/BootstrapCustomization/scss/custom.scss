@@ -1,0 +1,24 @@
+/* import only the necessary Bootstrap files */
+@import "../node_modules/bootstrap/scss/functions"; 
+@import "../node_modules/bootstrap/scss/variables";
+
+/* -------begin customization-------- */
+/*! `Custom` Bootstrap 4 theme */
+
+$enable-grid-classes:true;
+$primary:#83521b;
+$secondary:#d4872e;
+$success:#28a745;
+$danger:#dc3545;
+$info:#1b4983;
+$warning:#ffc107;
+$light:#f8f9fa;
+$dark:#343a40;
+@import "bootstrap";
+
+// Add SASS theme customizations here..
+html {font-size: .8rem;}
+@include media-breakpoint-up(sm) {html {font-size: .9rem;}}
+@include media-breakpoint-up(md) {html {font-size: .9rem;}}
+@include media-breakpoint-up(lg) {html {font-size: 1rem;}}
+/* -------end customization-------- */

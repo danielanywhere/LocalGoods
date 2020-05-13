@@ -1,0 +1,129 @@
+<!doctype html>
+<!--
+//	Index.html
+//
+//	Copyright (c). 2020 Daniel Patterson, MCSD (danielanywhere)
+//	Released for public access under the MIT License.
+//	http://www.opensource.org/licenses/mit-license.php
+-->
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<script type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="scripts/popper.min.js"></script>
+	<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+	<script type="text/javascript" src="scripts/knockout-min.js"></script>
+	<script type="text/javascript" src="scripts/knockstrap.min.js"></script>
+	<script type="text/javascript" src="scripts/page/Common.js"></script>
+	<script type="text/javascript" src="scripts/page/Index.js"></script>
+	<link type="text/css" rel="stylesheet" href="styles/bootstrap.css" />
+	<link type="text/css" rel="stylesheet" href="styles/default.css" />
+	<title id="docTitle">LocalGoods</title>
+</head>
+<body>
+	<!-- Navbar Section -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="Index.html"> 
+			<img src="images/LocalGoodsLogo.png" style="width: 32px; border: 0" />
+		</a>
+		<div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto order-0">
+				<li class="nav-item active">
+					<a class="nav-link" href="Index.html">&#171; Home <span class="sr-only">(current)</span></a>
+				</li>
+			</ul>
+			<ul class="navbar-nav">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+						role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
+							City
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<!-- Logged-In Only -->
+						<span data-bind="visible: loggedIn">
+							<a class="dropdown-item" onclick="dialogRequestNewCity()">Request New City</a>
+							<div class="dropdown-divider"></div>
+						</span>
+						<div id="mnuCityList">
+
+						</div>
+						<!-- /Logged-In Only -->
+						<!-- <a class="dropdown-item" href="#">Fort Collins, CO</a>
+						<a class="dropdown-item active" href="#">Laramie, WY</a> -->
+					</div>
+				</li>
+				<!-- Logged-In Only -->
+				<span data-bind="visible: loggedIn">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+						role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
+							Admin
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#" onclick="dialogUpdateUser()">Update User Profile</a>
+						<span data-bind="visible: false">
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">View Open Orders</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Review Past Orders</a>
+						</span>
+					</div>
+				</li>
+				</span>
+				<!-- /Logged-In Only -->
+				<!-- Logged-Out Only -->
+				<span data-bind="hidden: loggedIn">
+				<!-- <li class="nav-item"><a class="nav-link" href="Login.html">Login</a></li> -->
+				<li class="nav-item"><a class="nav-link" onclick="dialogLogin();">Login</a></li>
+				</span>
+				<span data-bind="hidden: loggedIn">
+				<li class="nav-item"><a class="nav-link" onclick="dialogSignup();">Sign Up</a></li>
+				</span>
+				<!-- /Logged-Out Only -->
+				<!-- Logged-In Only -->
+				<span data-bind="visible: loggedIn">
+				<li class="nav-item"><a class="nav-link" href="javascript:logoutSession()">Logout</a></li>
+				</span>
+				<!-- /Logged-In Only -->
+			</ul>
+			<form class="form-inline my-2 my-lg-0" action="Search.html" method="GET">
+				<input id="txtSearch" name="SearchText" class="form-control mr-sm-2"
+					type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
+	<!-- /Navbar Section -->
+	<div id="navLead" class="container-fluid bg-dark text-light lead">LocalGoods</div>
+	<div id="pageContainer" class="container">
+	<hr>
+	<!-- Logged-In Only -->
+	<span data-bind="visible: loggedIn">
+	<!-- Manage -->
+	<h2>Manage</h2>
+	<button class="btn btn-primary" onclick="loadFile('CatalogItemEdit.html?CatalogItemID=0');">Add Item</button>
+	<span data-bind="visible: userHasItems">
+	<button class="btn btn-primary" onclick="loadFile('Products.html');">Edit Items</button>
+	</span>
+	<!-- /Manage -->
+	<hr>
+	</span>
+	<!-- /Logged-In Only -->
+	<!-- Food -->
+	<div id="secDepartmentFood">
+		<h2>Food</h2>
+	</div>
+	<!-- /Food -->
+	<hr>
+	<!-- Supplies -->
+	<div id="secDepartmentSupplies">
+		<h2>Supplies</h2>
+	</div>
+	<!-- /Supplies -->
+	<hr>
+	</div>
+</body>
+</html>
